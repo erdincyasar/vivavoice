@@ -17,9 +17,11 @@ Ana Varlıklar:
 
     Bilim Dalı: Kardiyoloji, Nöroloji vb.
 
+    Dönem: 2025-2026
+
     Ders: KARD-501 İleri Kardiyoloji (her dönem tekrar açılır)
 
-    Sınav: 2024-Bahar Dönemi Sözlü Sınavı (derse özgü, dönemlik)
+    Sınav: 2025-Bahar Dönemi Sözlü Sınavı (derse özgü, dönemlik)
 
     Soru Havuzu: Ders kapsamındaki tüm sınav soruları
 
@@ -121,7 +123,7 @@ erDiagram
         text main_question
         json sub_questions
         json expected_answers
-        json scoring_rubric
+        json scoring_Tam puan ve alt punalarına
         enum difficulty_level
         float initial_difficulty
         float actual_difficulty
@@ -296,7 +298,7 @@ Sistem, farklı yetki seviyelerinde kullanıcı tiplerini destekler:
 - **Öğrenci:**
   - Sisteme doğrudan giriş yapamaz, sınav ve performans bilgileri sistemde tutulur.
 
-### Soru Onay Mekanizması:
+### Hocaların Yüklediği Sorular için Soru Onay Mekanizması:
 
 ```mermaid
 flowchart LR
@@ -833,7 +835,7 @@ flowchart TD
 
     Soru Bankası Modülü: Soru havuzu yönetimi ve erişim kontrolü
 
-    Değerlendirme Modülü: Rubric bazlı puanlama sistemi ve jüri değerlendirme
+    Değerlendirme Modülü: Tam puan ve alt punalarına bazlı puanlama sistemi ve jüri değerlendirme
 
     Raporlama Modülü: Çoklu formatlı rapor üretimi ve analiz
 
@@ -1067,8 +1069,8 @@ Sistemin ilk ve temel sınav modülü olan yapılandırılmış sözlü sınav a
 
 
 ## 7.2. Değerlendirme Süreci
-- Jüri üyesi, öğrencinin her alt soruya verdiği cevabı rubric seviyesine göre değerlendirir
-- Sistem otomatik olarak alt cevap puanları ile rubric seviyesini çarparak toplam soru puanını hesaplar
+- Jüri üyesi, öğrencinin her alt soruya verdiği cevabı Tam puan veya alt punalarına  göre değerlendirir
+- Sistem otomatik olarak alt cevap puanları ile Tam puan veya alt punalarına  toplam soru puanını hesaplar
 - Tüm sorular tamamlandığında öğrencinin genel ortalaması belirlenir
 - Değerlendirme sırasında açıklama ve yorum eklenebilir
 
@@ -1393,4 +1395,3 @@ flowchart LR
 - Hastane bilgi sistemi (HBS) ile veri paylaşımı
 - Mobil uygulama desteği
 - Yapay zeka destekli soru analizi ve öneriler
-
