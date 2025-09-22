@@ -19,9 +19,9 @@ Bu dosya, projenin haftalık ve günlük detaylı planını içermektedir.
 |       |            |       | ✅ LDAP authentication backend implementasyonu |         |
 |       |            |       | ✅ Custom LDAP backend sınıfı oluşturuldu |         |
 |       |            |       | ✅ Test modu ile erdincyasar kullanıcısı aktif |         |
-| 1     | Cuma       | 3     | Yetkilendirme Sistemi ve Giriş Sayfaları | ✅ TAMAM |
-|       |            |       | ✅ Login sayfası oluşturuldu |         |
-|       |            |       | ✅ Session yönetimi ve logout işlevselliği |         |
+| 1     | Cuma       | 3     | Yetkilendirme Sistemi ve Giriş Sayfaları | 🔄 DEVAM EDİYOR  |
+|       |            |       | ✅ Login sayfası oluşturuldu | 🔄 DEVAM         |
+|       |            |       | ✅ Session yönetimi ve logout işlevselliği | 🔄 DEVAM         |
 
 ## 2. Hafta (21-25 Eylül 2024) — Admin ve Hiyerarşi Yönetimi
 
